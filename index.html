@@ -1,2 +1,23 @@
 <!DOCTYPE html>
-<a>dsadabxc</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hash Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <label for="input">Input hash here:</label>
+    <textarea id="inputHash" name="inputHash" rows="4" cols="50"></textarea>
+    <label for="hash-algos">Choose a hash algos:</label> 
+    <select name="hash-algos" id="hash-algos"> 
+        <option value="MD5">MD5</option> 
+        <option value="SHA-1">SHA-1</option> 
+        <option value="SHA-2">SHA-2</option> 
+        <option value="SHA-256">SHA-256</option> 
+        <option value="NTLM">NTLM</option> 
+        <option value="LANMAN">LANMAN</option> 
+    </select>
+    <button type="button">Submit!</button>
+</body>
+</html>
