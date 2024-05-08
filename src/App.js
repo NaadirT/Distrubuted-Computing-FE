@@ -36,10 +36,7 @@ function App() {
           <option value="">Select an algorithm</option>
           <option value="MD5">MD5</option>
           <option value="SHA1">SHA1</option>
-          <option value="SHA2">SHA2</option>
           <option value="SHA256">SHA256</option>
-          <option value="NTLM">NTLM</option>
-          <option value="LANMAN">LANMAN</option>
         </select>
         <button type="submit">Submit!</button>
       </form>
